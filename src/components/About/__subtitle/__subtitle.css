@@ -1,0 +1,12 @@
+.about__subtitle {
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-style: normal;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 1.25em 0px 0px 0px;
+  padding: 0;
+  width: 100%;
+  text-align: right;
+
+  border: 1px solid red;
+}

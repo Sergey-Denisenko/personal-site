@@ -1,0 +1,41 @@
+@import url('./__title/__title.css');
+@import url('./__subtitle/__subtitle.css');
+@import url('./__visual/__visual.css');
+@import url('./__visual/_fly-text/_fly-text.css');
+@import url('./__section/__section.css');
+@import url('./__section/_center/_center.css');
+
+.about {
+  margin: -5vh auto 0;
+  padding: 0 104px;
+  display: flex;
+  /* position: fixed; */
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: top;
+  min-height: 80px;
+  /* height: 756px; */
+  width: 756px;
+
+  box-shadow: inset 0px -1px 0px #D1D2D6;
+  /* border: 1px solid red; */
+  border-bottom: 1px solid rgba(84, 84, 84, .7);
+
+}
+
+/* @media all and (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    height: 66px;
+    padding: 0 40px;
+  }
+} */
+
+/* @media all and (min-width: 320px) and (max-width: 767px) {
+  .header {
+    height: 56px;
+    padding: 0px 16px;
+    width: calc(100% - 32px);
+    position: fixed;
+    z-index: 3;
+  }
+} */

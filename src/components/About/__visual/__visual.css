@@ -1,0 +1,31 @@
+.about__visual {
+  /* width: 756px; */
+  width: 500px;
+  height: 500px;
+  min-height: 20%;
+
+  margin: 5vh 0px 0px 0px;
+  padding: 0;
+
+  background-image: none;
+  align-self: center;
+  border-radius: 20em;
+
+  border: 1px solid red;
+}
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .about__visual {
+    animation: Visual-spin infinite 20s linear;
+  }
+}
+
+@keyframes Visual-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

@@ -1,0 +1,6 @@
+.header__section_center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

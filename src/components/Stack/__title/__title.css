@@ -1,0 +1,10 @@
+.stack__title {
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  font-style: normal;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+
+  border: 1px solid red;
+}

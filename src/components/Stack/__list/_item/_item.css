@@ -1,0 +1,42 @@
+.stack__list_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
+  row-gap: 10px;
+  column-gap: 50px; */
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  /* font-style: normal;
+  font-size: 1em;
+  font-weight: normal; */
+
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+
+  min-height:fit-content;
+  /* width: ; */
+
+  /* padding: 1em 0px; */
+
+  border: 1px solid blue;
+}
+
+.stack__list_item:last-child {
+  justify-content: center;
+  align-items:flex-end;
+}
+
+.stack__list_item:last-child img {
+  display: none;
+}
+
+.stack__list_item:last-child p {
+  text-align: left;
+  width: 5.5em;
+  margin:0;
+}

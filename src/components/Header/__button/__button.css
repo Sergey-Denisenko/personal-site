@@ -1,0 +1,13 @@
+.header__button {
+  width: 2em;
+  height: 2em;
+  margin: 0;
+  padding: 0;
+  background-image: none;
+  /* background-color: yellow; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  /* border: 1px solid green; */
+}
