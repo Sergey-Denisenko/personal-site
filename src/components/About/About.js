@@ -13,10 +13,15 @@ function About() {
 
       {/* <div className='about__section'></div> */}
       {/* <div className='about__section about__section_center'> */}
-        <img className='about__visual' src={visualImagePath} alt={mainPageImage} />
-        <p className='about__visual_fly-text'>
-            Life is code...
-          </p>
+        <div className='about__visual'>
+          <img className='about__visual_image' src={visualImagePath} alt={mainPageImage} />
+          <span className='about__visual_fly-text'>
+            <p>
+              Life is code...
+            </p>
+          </span>
+        </div>
+
         {/* <div className='about__title'> */}
           <p className='about__title'>
             {aboutTitle}

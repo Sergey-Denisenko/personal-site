@@ -2,14 +2,9 @@
 @import url('./__list/__list.css');
 @import url('./__list/_item/_item.css');
 @import url('./__list/_item/_title/_title.css');
-@import url('./__list/_item/_image/_image.css');
-/* @import url('./__subtitle/__subtitle.css');
-@import url('./__visual/__visual.css');
-@import url('./__visual/_fly-text/_fly-text.css');
-@import url('./__section/__section.css');
-@import url('./__section/_center/_center.css'); */
+@import url('./__list/_item/_link/_link.css');
 
-.stack {
+.project {
   margin: 0em auto;
   padding: 2.5em 104px 0px;
   display: flex;

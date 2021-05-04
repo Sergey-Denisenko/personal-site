@@ -1,0 +1,30 @@
+@import url('./__item/__item.css');
+
+.menu-burger {
+  position: absolute;
+  top: 50px;
+  left: calc(50% - 378px);
+  display: none;
+  /* display: grid; */
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  /* grid-auto-flow: column; */
+  row-gap: 25px;
+  column-gap: 25px;
+
+  margin: 0px auto;
+  /* padding: 0px 104px; */
+  padding: 0;
+
+  /* display: flex; */
+  width: 756px;
+  height: 756px;
+
+  box-shadow: inset 0px -1px 0px #D1D2D6;
+
+  background-color: #eeeeee;
+  /* border: 1px solid red; */
+  border-bottom: 1px solid rgba(84, 84, 84, .7);
+  border: 1px solid red;
+
+}

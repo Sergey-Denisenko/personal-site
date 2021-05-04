@@ -22,14 +22,16 @@ function Header({
   // isMainPageOpen,
   // loggedIn,
   // onSignOut,
+  handleIsHeaderMenuOpen,
+  isHeaderMenuOpen,
 }) {
   return (
     <header className='header'>
             {/* <div className='header__section'></div> */}
       {/* <div className='header__section header__section_center'> */}
-        <div className='header__button'>SD</div>
+        <div className='header__button'>sergeydenisenko.com</div>
         {/* <div className='header__button'>Menu</div> */}
-        <img className='header__button' src={iconMenuBlackPath} alt={iconMenuImageAlt} />
+        <img className='header__button' src={iconMenuBlackPath} alt={iconMenuImageAlt} onClick={handleIsHeaderMenuOpen} />
       {/* </div> */}
       {/* <div className='header__section'></div> */}
 

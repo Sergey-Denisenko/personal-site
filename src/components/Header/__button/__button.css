@@ -1,6 +1,7 @@
 .header__button {
   width: 2em;
-  height: 2em;
+  /* height: 2em; */
+  height: fit-content;
   margin: 0;
   padding: 0;
   background-image: none;
@@ -9,5 +10,24 @@
   background-repeat: no-repeat;
   background-size: contain;
 
+  border-radius: 1px;
   /* border: 1px solid green; */
 }
+
+.header__button:hover {
+cursor: pointer;
+/* background-color:rgb(154, 154, 154); */
+}
+
+.header__button:last-child:hover {
+  cursor: pointer;
+  background-color:rgb(154, 154, 154);
+}
+
+/* .header__button:focus {
+  cursor: pointer;
+} */
+
+/* .header__button:active {
+  cursor: pointer;
+} */

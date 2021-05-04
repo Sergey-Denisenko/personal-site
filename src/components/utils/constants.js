@@ -15,7 +15,7 @@ HTML, CSS, язык программирования JavaScript, React JS, ад�
 const iconMenuImageAlt = 'Иконка меню';
 const mainPageImage = 'Картинка на главной';
 
-const stackSectionTitle = 'Stack';
+const stackSectionTitle = 'Stack & applications';
 // const stackListItems = ['HTML', 'CSS', 'JavaScript', 'React']
 const stackListItems = [
   {
@@ -84,6 +84,27 @@ const stackListItems = [
   },
 ]
 
+const projectSectionTitle = 'Projects & Links';
+
+const projectListItems = [
+  {
+    name: 'Учебный проект "News Explorer"',
+    link: 'https://allnews.students.nomoreparties.site',
+  },
+  {
+    name: 'Учебный проект "MESTO"',
+    link: 'https://world.students.nomoreparties.xyz',
+  },
+  {
+    name: 'Учебный проект "Путешествие по России"',
+    link: 'https://sergey-denisenko.github.io/russian-travel/',
+  },
+  {
+    name: 'Проект "Mondrian composition"',
+    link: 'https://sergey-denisenko.github.io/mondrian-composition/',
+  },
+]
+
 module.exports = {
   aboutTitle,
   aboutSubtitle,
@@ -103,6 +124,9 @@ module.exports = {
 
   stackSectionTitle,
   stackListItems,
+
+  projectSectionTitle,
+  projectListItems,
 
 }
 

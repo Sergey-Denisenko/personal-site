@@ -13,10 +13,10 @@ function Stack() {
 //   </div>
 // })
 
-localStorage.setItem('stackList', JSON.stringify(stackListItems));
-const qqq = JSON.parse(localStorage.getItem('stackList'));
-console.log('qqq');
-console.log(qqq);
+// localStorage.setItem('stackList', JSON.stringify(stackListItems));
+// const qqq = JSON.parse(localStorage.getItem('stackList'));
+// console.log('qqq');
+// console.log(qqq);
 
   return(
     <section className='stack'>
