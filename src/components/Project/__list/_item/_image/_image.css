@@ -1,0 +1,23 @@
+.project__list_item_image {
+  display: block;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* width: 300px; */
+  height: inherit;
+  margin: 0px 0em 0em 0em;
+  /* text-decoration: none; */
+  /* height: 50px; */
+  /* max-width:fit-content; */
+  /* max-width:-webkit-fill-available; */
+  /* margin: 0em auto 0px; */
+  /* padding: 1em 0px; */
+
+  /* font-style: inherit; */
+  /* font-size: 0.75em; */
+  /* font-weight: inherit; */
+  color: #8d8d8d;
+
+  border-radius: 1em;
+
+  border: 1px solid blue;
+}

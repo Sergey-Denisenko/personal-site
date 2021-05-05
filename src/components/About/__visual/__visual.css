@@ -6,7 +6,8 @@
   /* width: 756px; */
   width: 500px;
   height: 500px;
-  min-height: 20%;
+  min-height: 500px;
+  min-width: 500px;
 
   margin: 5vh 0px 0px 0px;
   padding: 0;

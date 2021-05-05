@@ -14,7 +14,7 @@
   font-weight: normal; */
 
   font-style: inherit;
-  font-size: inherit;
+  font-size: 1.5em;
   font-weight: inherit;
   color: inherit;
   text-align: center;
@@ -22,7 +22,7 @@
   /* height: 50px; */
   /* width: auto; */
   margin: 0.5em auto 0px;
-  /* padding: 1em 0px; */
-
+  padding: 0.25em 0px;
+  border-top: 1px solid #aeaead;
   border: 1px solid blue;
 }

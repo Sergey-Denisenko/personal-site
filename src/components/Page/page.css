@@ -5,7 +5,7 @@
   position: relative;
   margin: auto;
   min-height: 80vh;
-  height: 100vh;
+  /* height: 100vh; */
   /* max-height: 100vh; */
 
   -moz-osx-font-smoothing: grayscale;
@@ -15,7 +15,7 @@
   -moz-text-size-adjust: 100%;
 
   /* background-image: url(../../images/georgia-de-lotz--UsJoNxLaNo-unsplash.png); */
-  /* background-color: #eeeeee; */
+  background-color: #eeeeee;
   background-position: top;
   background-repeat: no-repeat;
 }

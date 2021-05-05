@@ -56,7 +56,7 @@ const stackListItems = [
   },
   {
     name: 'GitHub',
-    iconLink: '/images/stack-icons/GitHub_logo_2013.svg',
+    iconLink: '/images/stack-icons/GitHub-Mark-120px-plus.png',
   },
   {
     name: 'VSC',
@@ -79,7 +79,7 @@ const stackListItems = [
     iconLink: '/images/stack-icons/Figma-1-logo.png',
   },
   {
-    name: 'to be continued...',
+    name: 'place for future skills...',
     iconLink: '',
   },
 ]
@@ -87,6 +87,10 @@ const stackListItems = [
 const projectSectionTitle = 'Projects & Links';
 
 const projectListItems = [
+  {
+    name: 'sergeydenisenko.com',
+    link: '...',
+  },
   {
     name: 'Учебный проект "News Explorer"',
     link: 'https://allnews.students.nomoreparties.site',

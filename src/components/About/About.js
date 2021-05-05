@@ -4,12 +4,12 @@ import { aboutTitle, aboutSubtitle, mainPageImage } from '../utils/constants';
 import visualImagePath from '../images/visual.png';
 // import visualImagePath from '../images/visual.png';
 
-function About() {
+function About({ isAboutSectionOpen }) {
 
 
 
   return(
-    <section className='about'>
+    <section className={`about ${isAboutSectionOpen === true ? 'about_open' : '' }`}>
 
       {/* <div className='about__section'></div> */}
       {/* <div className='about__section about__section_center'> */}
@@ -22,14 +22,17 @@ function About() {
           </span>
         </div>
 
-        {/* <div className='about__title'> */}
+        <div className='about__text-block'>
           <p className='about__title'>
             {aboutTitle}
           </p>
           <p className='about__subtitle'>
             {aboutSubtitle}
           </p>
-        {/* </div> */}
+          <p className='about__subtitle'>
+            Меня зовут Сергей Денисенко. Я Frontend разработчик.
+          </p>
+        </div>
       {/* </div> */}
       {/* <div className='about__section'></div> */}
 

@@ -9,12 +9,14 @@
 
 .footer {
   /* width: calc(100% - 199px - 199px); */
-  margin: 0 auto;
-  padding: 0 104px;
-  height: 80px;
+  margin: -40px auto 0;
+  /* padding: 0 104px; */
+  padding: 0;
+  height: 40px;
+  width:768px;;
   display: flex;
   justify-content: space-between;
-  align-items: top;
+  align-items: center;
 
   border: 1px solid brown;
 }

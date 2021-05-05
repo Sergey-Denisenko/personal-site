@@ -5,7 +5,7 @@ import Footer from '../Footer/Footer';
 
 import { stackSectionTitle, stackListItems } from '../utils/constants';
 
-function Stack() {
+function Stack({ isStackSectionOpen }) {
 
 // const renderStack = stackList.map((item, index) => {
 //   <div key={index}>
@@ -19,7 +19,7 @@ function Stack() {
 // console.log(qqq);
 
   return(
-    <section className='stack'>
+    <section className={`stack ${isStackSectionOpen === true ? 'stack_open' : ''}`}>
       <h3 className='stack__title'>{stackSectionTitle}</h3>
       <div className='stack__list'>
         {/* {console.log('stackListItems')}

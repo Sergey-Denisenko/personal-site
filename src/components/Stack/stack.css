@@ -12,15 +12,17 @@
 .stack {
   margin: 0em auto;
   padding: 2.5em 104px 0px;
-  display: flex;
+  /* display: flex; */
+  display: none;
   /* position: fixed; */
   flex-direction: column;
   justify-content: flex-start;
   align-items: top;
-  min-height: 80px;
+  /* min-height: 80px; */
   /* height: 756px; */
-  height: 756px;
-  width: 756px;
+  /* height: 768px; */
+  min-height: calc(100% - 40px);
+  width: 768px;
 
   box-shadow: inset 0px -1px 0px #D1D2D6;
   /* border: 1px solid red; */
