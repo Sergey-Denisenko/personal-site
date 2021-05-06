@@ -14,9 +14,12 @@
   /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   font-style: normal;
   font-size: 1.5em;
+  /* font-size: ; */
   font-weight: normal;
-  margin: 3.5em 0px 0px 0px;
-  margin-bottom: calc(2.5em + 40px);
+  /* margin: 2.5em 0px 0px 0px; */
+  margin: 50px 0px 0px 0px;
+  /* margin-bottom: calc(2.5em + 40px); */
+  margin-bottom: calc(50px + 40px);
   padding: 0;
   color: black;
 

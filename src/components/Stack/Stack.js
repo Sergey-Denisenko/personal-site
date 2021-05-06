@@ -21,6 +21,7 @@ function Stack({ isStackSectionOpen }) {
   return(
     <section className={`stack ${isStackSectionOpen === true ? 'stack_open' : ''}`}>
       <h3 className='stack__title'>{stackSectionTitle}</h3>
+      <p className='stack__subtitle'>Инструменты и технологии, которые использую в работе</p>
       <div className='stack__list'>
         {/* {console.log('stackListItems')}
         {console.log(stackListItems)} */}

@@ -16,9 +16,11 @@
   column-gap: 25px; */
   /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   font-style: normal;
-  font-size: 1.35em;
+  /* font-size: 1.35em; */
+  font-size: 20px;
   font-weight: normal;
-  margin: 3.5em 0px 0px 0px;
+  /* margin: 3.5em 0px 0px 0px; */
+  margin: 50px 0px 0px 0px;
   padding: 0;
   /* color: black; */
 

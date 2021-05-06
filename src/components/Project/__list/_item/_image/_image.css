@@ -17,7 +17,8 @@
   /* font-weight: inherit; */
   color: #8d8d8d;
 
-  border-radius: 1em;
+  /* border-radius: 1em; */
+  border-radius: 16px;
 
   border: 1px solid blue;
 }

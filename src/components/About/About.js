@@ -30,7 +30,7 @@ function About({ isAboutSectionOpen }) {
             {aboutSubtitle}
           </p>
           <p className='about__subtitle'>
-            Меня зовут Сергей Денисенко. Я Frontend разработчик.
+            Я Frontend разработчик из России. Люблю кодить, и всеми силами развиваю этот навык.
           </p>
         </div>
       {/* </div> */}

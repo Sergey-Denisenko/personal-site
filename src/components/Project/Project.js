@@ -7,6 +7,7 @@ function Project({ isProjectSectionOpen }) {
   return(
     <section className={`project ${isProjectSectionOpen === true ? 'project_open' : ''}`}>
       <h3 className='project__title'>{projectSectionTitle}</h3>
+      <p className='project__subtitle'>Реализованные проекты - учебные и Pet</p>
       <div className='project__list'>
         {
           projectListItems.slice(0, projectListItems.length).map((item, index) => {

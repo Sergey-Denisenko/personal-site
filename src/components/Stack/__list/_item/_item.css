@@ -21,9 +21,11 @@
   min-height:fit-content;
   /* width: ; */
 
-  padding: 0.5em 0.5em;
+  /* padding: 0.5em 0.5em; */
+  padding: 10px 10px;
   background-color: white;
-  border-radius: 0.75em;
+  /* border-radius: 0.75em; */
+  border-radius: 16px;
 
   border: 1px solid blue;
 }
