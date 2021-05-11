@@ -15,22 +15,26 @@
   padding: 2.5em 104px 0px;
   /* display: flex; */
   display: none;
-  /* position: fixed; */
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: top;
+  position: fixed;
+  top: 0;
+  left: calc(50% - 384px - 104px);
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  justify-content: center;
+  /* align-items: top; */
+  align-items: center;
   min-height: 80px;
   /* height: 756px; */
   width: 768px;
   /* height: 756px; */
-  height: calc(100% - 40px);
+  height: calc(100vh - 40px);
 
   box-shadow: inset 0px -1px 0px #D1D2D6;
 
   /* background-color: #eeeeee; */
   /* border: 1px solid red; */
   border-bottom: 1px solid rgba(84, 84, 84, .7);
-  border: 1px solid red;
+  /* border: 1px solid red; */
 
 }
 

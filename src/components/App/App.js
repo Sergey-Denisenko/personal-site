@@ -6,6 +6,7 @@ import Stack from '../Stack/Stack';
 import About from '../About/About';
 import Project from '../Project/Project';
 import MenuBurger from '../MenuBurger/MenuBurger';
+import EmptySection from '..//EmptySection/EmptySection';
 
 
 function App() {
@@ -52,6 +53,32 @@ function App() {
     setIsProjectSectionOpen(false);
   }
 
+  function onMouseBackgroundOpacity() {
+    // document.documentElement.getBoundingClientRect().top = 0;
+    // while (true) {
+      // console.log(document.documentElement.getBoundingClientRect().bottom);
+      // console.log(document.documentElement.clientHeight);
+
+      // let windowRelativeBottom = document.documentElement.getBoundingClientRect().bottom;
+      // if (windowRelativeBottom < document.documentElement.clientHeight + 100) {
+      //   console.log('Мотаем вверх');
+      //   break;
+      // }
+      // else {console.log('Мотаем вниз');}
+    // }
+    // window.addEventListener('scroll', function() {
+    //   document.getElementById('showScroll').innerHTML = pageYOffset + 'px';
+    //   console.log(pageYOffset);
+    //   const q = pageYOffset;
+    //   if (q < pageYOffset) {
+    //     console.log('Мотаем вверх');
+    //   } else {console.log('Мотаем вниз');}
+
+    // });
+  }
+  window.addEventListener('scroll', onMouseBackgroundOpacity);
+  // onMouseBackgroundOpacity();
+
     return (
 
       <div className="app">
@@ -61,8 +88,9 @@ function App() {
               isHeaderMenuOpen={isHeaderMenuOpen}
             />
             <About isAboutSectionOpen={isAboutSectionOpen} />
-            <Stack isStackSectionOpen={isStackSectionOpen} />
+            <EmptySection />
             <Project isProjectSectionOpen={isProjectSectionOpen} />
+            <Stack isStackSectionOpen={isStackSectionOpen} />
             <MenuBurger
               isHeaderMenuOpen={isHeaderMenuOpen}
               handleIsAboutSectionOpen={handleIsAboutSectionOpen}

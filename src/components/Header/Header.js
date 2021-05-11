@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 // import Navigation from '../Navigation/Navigation';
 import iconMenuBlackPath from '../images/icon-menu-black.png';
+import iconMenuWhitePath from '../images/icon-menu-white.png';
 
 import {
   // headerLogoText,
@@ -31,7 +32,7 @@ function Header({
       {/* <div className='header__section header__section_center'> */}
         <div className='header__button'>sergeydenisenko.com</div>
         {/* <div className='header__button'>Menu</div> */}
-        <img className='header__button' src={iconMenuBlackPath} alt={iconMenuImageAlt} onClick={handleIsHeaderMenuOpen} />
+        <img className='header__button' src={iconMenuWhitePath} alt={iconMenuImageAlt} onClick={handleIsHeaderMenuOpen} />
       {/* </div> */}
       {/* <div className='header__section'></div> */}
 

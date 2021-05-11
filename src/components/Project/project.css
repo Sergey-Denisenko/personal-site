@@ -10,8 +10,8 @@
   margin: 0em auto;
   /* padding: 2.5em 104px 0px; */
   padding: 40px 104px 0px;
-  /* display: flex; */
-  display: none;
+  display: flex;
+  /* display: none; */
   /* position: fixed; */
   flex-direction: column;
   justify-content: flex-start;
@@ -28,7 +28,7 @@
   /* background-color:#f4f4f4; */
 
   border-bottom: 1px solid rgba(84, 84, 84, .7);
-  border: 1px solid red;
+  /* border: 1px solid red; */
 
 }
 

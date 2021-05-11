@@ -11,8 +11,13 @@
   font-style: normal;
   font-size: 1.35em;
   font-weight: normal;
+  color: #000;
   margin: 0;
   padding: 0;
+
+  background-color: #fff;
+
+  border-radius: 16px;
 
   border: 1px solid red;
 }

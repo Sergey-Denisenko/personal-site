@@ -27,7 +27,7 @@
   /* border-radius: 0.75em; */
   border-radius: 16px;
 
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .stack__list_item:last-child {
