@@ -19,9 +19,20 @@
 
   border-radius: 16px;
 
-  border: 1px solid red;
+  /* border: 1px solid red; */
+
 }
 
 .menu-burger__item:hover {
   cursor: pointer;
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .menu-burger__item {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100px;
+    border-radius: 50px;
+  }
 }

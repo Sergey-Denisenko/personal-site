@@ -25,3 +25,17 @@
 
   /* border: 1px solid red; */
 }
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .stack__list {
+    /* height: calc(100vh - 42px); */
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+    width: 100%;
+    margin-bottom: 50px;
+    /* left: calc(50% - 160px); */
+    /* position: fixed; */
+    /* margin-top: 42px; */
+
+  }
+}

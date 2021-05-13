@@ -1,3 +1,9 @@
 .menu-burger__item_title {
   color: inherit
 }
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .menu-burger__item_title {
+    margin-left: 24px;
+  }
+}

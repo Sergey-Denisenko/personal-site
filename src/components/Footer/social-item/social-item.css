@@ -4,6 +4,9 @@
   margin: 0;
   padding: 0;
   /* margin-left: 28px; */
+  /* border: 1px solid red; */
+  background-color: #fff;
+  border: 1px solid #fff;
 }
 
 @media all and (min-width: 1024px) {
@@ -20,7 +23,16 @@
 
 
 @media all and (min-width: 320px) and (max-width: 767px) {
+  .footer__social-item {
+    /* background-color: #fff; */
+  }
+
+  .footer__social-item:nth-child(1) {
+    border-radius: 12px;
+  }
+
   .footer__social-item:nth-child(2) {
     margin-left: 27px;
+    /* border: 1px solid #fff; */
   }
 }

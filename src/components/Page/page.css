@@ -36,5 +36,6 @@
   .page {
     background-position: top;
     background-repeat: no-repeat;
+    height: 100vh;
   }
 }

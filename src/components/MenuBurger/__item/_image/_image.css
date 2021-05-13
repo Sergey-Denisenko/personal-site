@@ -13,5 +13,13 @@
   margin: 0;
   padding: 0;
 
-  border: 1px solid red;
+  /* border: 1px solid red; */
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .menu-burger__item_image {
+    height: 75%;
+    width: auto;
+    margin-left: 50px;
+  }
 }

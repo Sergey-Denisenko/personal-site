@@ -76,7 +76,7 @@ function App() {
 
     // });
   }
-  window.addEventListener('scroll', onMouseBackgroundOpacity);
+  // window.addEventListener('scroll', onMouseBackgroundOpacity);
   // onMouseBackgroundOpacity();
 
     return (
