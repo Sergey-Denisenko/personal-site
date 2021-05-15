@@ -3,7 +3,7 @@ import React from 'react';
 import StackListItem from '../StackListItem/StackListItem';
 import Footer from '../Footer/Footer';
 
-import { stackSectionTitle, stackListItems } from '../utils/constants';
+import { stackSectionTitle, stackSectionSubtitle, stackListItems } from '../utils/constants';
 
 function Stack({ isStackSectionOpen }) {
 
@@ -19,9 +19,9 @@ function Stack({ isStackSectionOpen }) {
 // console.log(qqq);
 
   return(
-    <section className={`stack ${isStackSectionOpen === true ? 'stack_open' : ''}`}>
+    <section id='stack' className={`stack ${isStackSectionOpen === true ? 'stack_open' : ''}`}>
       <h3 className='stack__title'>{stackSectionTitle}</h3>
-      <p className='stack__subtitle'>Инструменты и технологии, которые использую в работе</p>
+      <p className='stack__subtitle'>{stackSectionSubtitle}</p>
       <div className='stack__list'>
         {/* {console.log('stackListItems')}
         {console.log(stackListItems)} */}

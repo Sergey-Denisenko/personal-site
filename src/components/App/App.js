@@ -7,6 +7,7 @@ import About from '../About/About';
 import Project from '../Project/Project';
 import MenuBurger from '../MenuBurger/MenuBurger';
 import EmptySection from '..//EmptySection/EmptySection';
+import Contact from '../Contact/Contact';
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
   console.log(isHeaderMenuOpen);
 
   const handleIsAboutSectionOpen = () => {
-    setIsAboutSectionOpen(!isAboutSectionOpen);
+    // setIsAboutSectionOpen(!isAboutSectionOpen);
     setIsHeaderMenuOpen(false);
     setIsStackSectionOpen(false);
     setIsProjectSectionOpen(false);
@@ -34,21 +35,21 @@ function App() {
   const handleIsStackSectionOpen = () => {
     setIsStackSectionOpen(!isStackSectionOpen);
     setIsHeaderMenuOpen(false);
-    setIsAboutSectionOpen(false);
+    // setIsAboutSectionOpen(false);
     setIsProjectSectionOpen(false);
     setIsContactSectionOpen(false);
   }
   const handleIsProjectSectionOpen = () => {
     setIsProjectSectionOpen(!isProjectSectionOpen);
     setIsHeaderMenuOpen(false);
-    setIsAboutSectionOpen(false);
+    // setIsAboutSectionOpen(false);
     setIsStackSectionOpen(false);
     setIsContactSectionOpen(false);
   }
   const handleIsContactSectionOpen = () => {
     setIsContactSectionOpen(!isContactSectionOpen);
     setIsHeaderMenuOpen(false);
-    setIsAboutSectionOpen(false);
+    // setIsAboutSectionOpen(false);
     setIsStackSectionOpen(false);
     setIsProjectSectionOpen(false);
   }
@@ -99,6 +100,7 @@ function App() {
               handleIsContactSectionOpen={handleIsContactSectionOpen}
             />
               {/* Hello! */}
+              <Contact />
             <Footer />
         </div>
       </div>

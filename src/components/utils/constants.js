@@ -16,6 +16,7 @@ const iconMenuImageAlt = 'Иконка меню';
 const mainPageImage = 'Картинка на главной';
 
 const stackSectionTitle = 'Stack & applications';
+const stackSectionSubtitle = 'Технологии и инструменты, которые использую в работе';
 // const stackListItems = ['HTML', 'CSS', 'JavaScript', 'React']
 const stackListItems = [
   {
@@ -85,27 +86,55 @@ const stackListItems = [
 ]
 
 const projectSectionTitle = 'Projects & Links';
+const projectSectionSubtitle = 'Реализованные проекты - учебные и Pet';
 
 const projectListItems = [
   {
-    name: 'sergeydenisenko.com',
+    type: 'Личный сайт',
+    name: 'Sergey Denisenko',
+    imageSrc: '../images/mysite_image.png',
     link: '...',
   },
   {
-    name: 'Учебный проект "News Explorer"',
+    type: 'Учебный проект',
+    name: '"News Explorer"',
+    imageSrc: '../images/newsexplorer_image.png',
     link: 'https://allnews.students.nomoreparties.site',
   },
   {
-    name: 'Учебный проект "MESTO"',
+    type: 'Учебный проект',
+    name: '"MESTO"',
+    imageSrc: '../images/mesto_image.png',
     link: 'https://world.students.nomoreparties.xyz',
   },
   {
-    name: 'Учебный проект "Путешествие по России"',
+    type: 'Учебный проект',
+    name: '"Путешествие по России"',
+    imageSrc: '../images/russiantravel_image.png',
     link: 'https://sergey-denisenko.github.io/russian-travel/',
   },
   {
-    name: 'Проект "Mondrian composition"',
+    type: 'Проект',
+    name: '"Mondrian composition"',
+    imageSrc: '../images/mondrian_image.png',
     link: 'https://sergey-denisenko.github.io/mondrian-composition/',
+  },
+]
+
+const myContactTitle = 'Contacts';
+const myContactSubtitle = 'Методы связи для сотрудничества';
+const myContact = [
+  {
+    type: 'E-mail',
+    link: 'sd.a2@yandex.ru',
+  },
+  {
+    type: 'Telegram',
+    link: '@SergeyDNSNK',
+  },
+  {
+    type: 'GitHub',
+    link: 'https://github.com/Sergey-Denisenko',
   },
 ]
 
@@ -127,10 +156,16 @@ module.exports = {
   mainPageImage,
 
   stackSectionTitle,
+  stackSectionSubtitle,
   stackListItems,
 
   projectSectionTitle,
+  projectSectionSubtitle,
   projectListItems,
+
+  myContactTitle,
+  myContactSubtitle,
+  myContact,
 
 }
 

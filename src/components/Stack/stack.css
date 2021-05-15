@@ -11,7 +11,7 @@
 @import url('./__section/_center/_center.css'); */
 
 .stack {
-  margin: 0em auto;
+  margin: 0px auto;
   /* padding: 2.5em 104px 0px; */
   padding: 40px 104px 0px;
   display: flex;
@@ -34,7 +34,7 @@
 
   /* background-color:#f4f4f4; */
 
-  border-bottom: 1px solid rgba(84, 84, 84, .7);
+  /* border-bottom: 1px solid rgba(84, 84, 84, .7); */
   /* border: 1px solid red; */
   z-index: 4;
 }

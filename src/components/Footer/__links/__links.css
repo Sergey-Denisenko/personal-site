@@ -16,7 +16,7 @@
     flex-direction: column-reverse;
     justify-content: flex-start;
     margin-top: 16px;
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
     /* margin: 16px auto 0px; */
 
   }

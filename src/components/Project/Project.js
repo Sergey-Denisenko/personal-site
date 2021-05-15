@@ -1,27 +1,32 @@
 import React from'react'
 
-import { projectSectionTitle, projectListItems } from '../utils/constants';
+import { projectSectionTitle, projectSectionSubtitle, projectListItems } from '../utils/constants';
 
 function Project({ isProjectSectionOpen }) {
 
   return(
-    <section className={`project ${isProjectSectionOpen === true ? 'project_open' : ''}`}>
+    <section id='project' className={`project ${isProjectSectionOpen === true ? 'project_open' : ''}`}>
       <h3 className='project__title'>{projectSectionTitle}</h3>
-      <p className='project__subtitle'>Реализованные проекты - учебные и Pet</p>
+      <p className='project__subtitle'>{projectSectionSubtitle}</p>
       <div className='project__list'>
         {
           projectListItems.slice(0, projectListItems.length).map((item, index) => {
             return (
               <div key={index} className='project__list_item'>
-                {(item.name === 'Учебный проект "News Explorer"' || item.name === 'sergeydenisenko.com') && <img className='project__list_item_image' src='../images/newsexplorer_image.png' />}
-                {/* {item.name && <img className='project__list_item_image' src='../images/newsexplorer_image.png' />} */}
-                {item.name === 'Учебный проект "MESTO"'  && <img className='project__list_item_image' src='../images/mesto_image.png' />}
-                {item.name === 'Учебный проект "Путешествие по России"'  && <img className='project__list_item_image' src='../images/russiantravel_image.png' />}
-                {item.name === 'Проект "Mondrian composition"'  && <img className='project__list_item_image' src='../images/mondrian_image.png' />}
-                <h3 className='project__list_item_title'>{item.name}</h3>
-                {/* <a className='project__list_item_link' href={item.link} target="_blank">
-                  Open site
-                </a> */}
+
+                {/* {item.name === 'Sergey Denisenko' && <img className='project__list_item_image' src='../images/mysite_image.png' />}
+                {item.name === '"News Explorer"' && <img className='project__list_item_image' src='../images/newsexplorer_image.png' />}
+                {item.name === '"MESTO"' && <img className='project__list_item_image' src='../images/mesto_image.png' />}
+                {item.name === '"Путешествие по России"' && <img className='project__list_item_image' src='../images/russiantravel_image.png' />}
+                {item.name === '"Mondrian composition"' && <img className='project__list_item_image' src='../images/mondrian_image.png' />} */}
+
+                <img className='project__list_item_image' src={item.imageSrc} />
+
+                <a className='project__list_item_link' href={item.link} target="_blank" rel="noreferrer">
+                  <h2 className='project__list_item_title'>
+                    {item.name}
+                  </h2>
+                </a>
               </div>
             )
           })

@@ -3,7 +3,7 @@ import React from 'react';
 function EmptySection() {
 
   return(
-    <section className='empty-section' />
+    <section id='emptySection' className='empty-section' />
 
   )
 }

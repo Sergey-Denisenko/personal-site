@@ -54,7 +54,7 @@
   align-self: center;
 }
 
-.project__list_item:nth-child(odd) h3 {
+.project__list_item:nth-child(odd) h2 {
   /* margin-left: 2em; */
   margin-left: 60px;
   /* margin-right: 0.5em; */
@@ -67,7 +67,7 @@
   flex-direction: row-reverse;
 }
 
-.project__list_item:nth-child(even) h3 {
+.project__list_item:nth-child(even) h2 {
 /* margin-right: 2em; */
 margin-right: 60px;
 /* margin-left: 0.5em; */
@@ -115,7 +115,7 @@ text-align: start;
     align-self: center;
   }
 
-  .project__list_item:nth-child(odd) h3 {
+  .project__list_item:nth-child(odd) h2 {
     /* margin-left: 2em; */
     margin-left: 0;
     /* margin-right: 0.5em; */
@@ -128,7 +128,7 @@ text-align: start;
     flex-direction: column;
   }
 
-  .project__list_item:nth-child(even) h3 {
+  .project__list_item:nth-child(even) h2 {
     /* margin-right: 2em; */
     margin-right: 0;
     /* margin-left: 0.5em; */

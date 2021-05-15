@@ -10,7 +10,8 @@
 .footer {
   position: relative;
   /* width: calc(100% - 199px - 199px); */
-  margin: -40px auto 0;
+  /* margin: -40px auto 0; */
+  margin: 40px auto;
   /* padding: 0 104px; */
   padding: 0;
   height: 40px;
@@ -40,8 +41,8 @@
     justify-content: flex-start;
     align-items: center;
     height: fit-content;
-    margin: 0px auto 0;
-    padding: 0px 16px;
+    margin: 0px auto;
+    padding: 16px 16px;
     width: calc(100% - 32px);
     /* width: 100%; */
     /* left: calc(50% - 160px); */
