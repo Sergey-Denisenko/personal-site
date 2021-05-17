@@ -1,0 +1,11 @@
+.contact__list_item_link {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit
+}
+
+.contact__list_item_link:hover {
+  transform: scale(1);
+  color: #B6BCBF;
+  transition: color 0.2s, transform 0.2s;
+}

@@ -23,7 +23,7 @@
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
   .footer__social {
-    margin: 21px 0px 0px 36px;
+    margin: 0px 0px 0px 36px;
     align-items: flex-start;
   }
 }

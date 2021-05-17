@@ -1,30 +1,18 @@
 import React from 'react';
 
-import StackListItem from '../StackListItem/StackListItem';
-import Footer from '../Footer/Footer';
-
-import { stackSectionTitle, stackSectionSubtitle, stackListItems } from '../utils/constants';
+import {
+  stackSectionTitle,
+  stackSectionSubtitle,
+  stackListItems
+} from '../utils/constants';
 
 function Stack({ isStackSectionOpen }) {
-
-// const renderStack = stackList.map((item, index) => {
-//   <div key={index}>
-//     <StackList item={item}/>
-//   </div>
-// })
-
-// localStorage.setItem('stackList', JSON.stringify(stackListItems));
-// const qqq = JSON.parse(localStorage.getItem('stackList'));
-// console.log('qqq');
-// console.log(qqq);
 
   return(
     <section id='stack' className={`stack ${isStackSectionOpen === true ? 'stack_open' : ''}`}>
       <h3 className='stack__title'>{stackSectionTitle}</h3>
       <p className='stack__subtitle'>{stackSectionSubtitle}</p>
       <div className='stack__list'>
-        {/* {console.log('stackListItems')}
-        {console.log(stackListItems)} */}
         {
           stackListItems.slice(0, stackListItems.length).map((item, index) => {
             return (
@@ -34,18 +22,6 @@ function Stack({ isStackSectionOpen }) {
               </div>
             )
           })
-          // stackListItems.map((item, index) => {
-          //   <div key={index}>
-          //     {/* {console.log('item000')} */}
-          //     {/* {console.log(item)} */}
-          //     {/* {console.log('item.name000')} */}
-          //     {/* {console.log(item.name)} */}
-          //     {/* {item.name} */}
-          //     {/* <p className='stack__title'>${item.name}</p> */}
-          //     <StackListItem item={item}/>
-
-          //   </div>
-          // })
         }
       </div>
     </section>

@@ -10,7 +10,13 @@
   text-decoration: none;
 }
 
-@media all and (min-width: 1025px) {
+.footer__menu-item:hover {
+  color: #B6BCBF;
+  transform: scale(1);
+  transition: color 0.2s, transform 0.2s;
+}
+
+@media all and (min-width: 1024px) {
   .footer__menu-item:nth-child(2) {
       margin-left: 40px;
     }

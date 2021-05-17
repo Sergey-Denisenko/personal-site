@@ -46,6 +46,28 @@
   border-top: none;
 }
 
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .stack__list_item {
+
+  }
+
+  .stack__list_item:last-child {
+    justify-content: center;
+    align-items:center;
+    /* height: 118px; */
+  }
+
+  .stack__list_item:last-child img {
+    display: none;
+  }
+
+  .stack__list_item:last-child p {
+    text-align: center;
+    width: 6.5em;
+    /* margin:0; */
+  }
+}
+
 @media all and (min-width: 320px) and (max-width: 767px) {
   .stack__list_item {
 

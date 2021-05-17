@@ -1,5 +1,5 @@
 import React from 'react';
-// import App from '../App';
+
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import Stack from '../Stack/Stack';
@@ -9,7 +9,6 @@ import MenuBurger from '../MenuBurger/MenuBurger';
 import EmptySection from '..//EmptySection/EmptySection';
 import Contact from '../Contact/Contact';
 
-
 function App() {
 
   const [isHeaderMenuOpen, setIsHeaderMenuOpen] = React.useState(false);
@@ -17,13 +16,10 @@ function App() {
   const [isStackSectionOpen, setIsStackSectionOpen] = React.useState(false);
   const [isProjectSectionOpen, setIsProjectSectionOpen] = React.useState(false);
   const [isContactSectionOpen, setIsContactSectionOpen] = React.useState(false);
-  // const [] = React.useState(false);
 
   const handleIsHeaderMenuOpen = () => {
     setIsHeaderMenuOpen(!isHeaderMenuOpen);
   }
-  console.log('isHeaderMenuOpen');
-  console.log(isHeaderMenuOpen);
 
   const handleIsAboutSectionOpen = () => {
     // setIsAboutSectionOpen(!isAboutSectionOpen);
@@ -54,7 +50,7 @@ function App() {
     setIsProjectSectionOpen(false);
   }
 
-  function onMouseBackgroundOpacity() {
+  // function onMouseBackgroundOpacity() {
     // document.documentElement.getBoundingClientRect().top = 0;
     // while (true) {
       // console.log(document.documentElement.getBoundingClientRect().bottom);
@@ -76,7 +72,8 @@ function App() {
     //   } else {console.log('Мотаем вниз');}
 
     // });
-  }
+  // }
+
   // window.addEventListener('scroll', onMouseBackgroundOpacity);
   // onMouseBackgroundOpacity();
 
@@ -86,12 +83,13 @@ function App() {
         <div className="page">
             <Header
               handleIsHeaderMenuOpen={handleIsHeaderMenuOpen}
-              isHeaderMenuOpen={isHeaderMenuOpen}
             />
             <About isAboutSectionOpen={isAboutSectionOpen} />
             <EmptySection />
             <Project isProjectSectionOpen={isProjectSectionOpen} />
             <Stack isStackSectionOpen={isStackSectionOpen} />
+            <Contact />
+            <Footer />
             <MenuBurger
               isHeaderMenuOpen={isHeaderMenuOpen}
               handleIsAboutSectionOpen={handleIsAboutSectionOpen}
@@ -99,9 +97,6 @@ function App() {
               handleIsProjectSectionOpen={handleIsProjectSectionOpen}
               handleIsContactSectionOpen={handleIsContactSectionOpen}
             />
-              {/* Hello! */}
-              <Contact />
-            <Footer />
         </div>
       </div>
     )

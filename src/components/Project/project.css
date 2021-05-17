@@ -7,9 +7,11 @@
 @import url('./__list/_item/_image/_image.css');
 
 .project {
-  margin: 0em auto;
+  margin: 0 auto;
   /* padding: 2.5em 104px 0px; */
-  padding: 40px 104px 0px;
+  /* padding: 40px 104px 0px; */
+  /* padding: 40px 104px; */
+  padding: 40px 36px;
   display: flex;
   /* display: none; */
   /* position: fixed; */
@@ -34,17 +36,17 @@
 
 }
 
-/* @media all and (min-width: 768px) and (max-width: 1024px) {
-  .header {
-    height: 66px;
-    padding: 0 40px;
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .project {
+    padding: 40px 24px 50px;
+    width: calc(100% - 48px);
   }
-} */
+}
 
 @media all and (min-width: 320px) and (max-width: 767px) {
   .project {
     /* height: calc(100vh - 42px); */
-    padding: 0px 16px;
+    padding: 40px 16px 50px;
     width: calc(100% - 32px);
     /* left: calc(50% - 160px); */
     /* position: fixed; */

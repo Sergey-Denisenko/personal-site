@@ -5,7 +5,7 @@ import { myContactTitle, myContactSubtitle, myContact } from '../utils/constants
 function Contact() {
 
   return(
-    <section id='section' className='contact' >
+    <section id='contact' className='contact' >
       <h3 className='contact__title'>{myContactTitle}</h3>
       <p className='contact__subtitle'>{myContactSubtitle}</p>
       <div className='contact__list'>
@@ -14,7 +14,15 @@ function Contact() {
           return (
             <div key={index} className='contact__list_item'>
               <h4 className='contact__list_item_title'>{item.type}</h4>
-              <p className='contact__list_item_subtitle'>{item.link}</p>
+              {
+                item.link.includes('https://' || 'http://')
+                ?
+                <a className='contact__list_item_link' href={item.link} target="_blank" rel="noreferrer">
+                  <p className='contact__list_item_subtitle'>{item.link}</p>
+                </a>
+                :
+                <p className='contact__list_item_subtitle'>{item.link}</p>
+              }
             </div>
           )
         })

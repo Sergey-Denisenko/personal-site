@@ -1,22 +1,24 @@
+const headerLogoText = 'Sergey Denisenko';
+
 const aboutTitle = 'Sergey Denisenko';
 const aboutSubtitle = 'Frontend Developer';
 const footerCopyRightText = ' 2021 Sergey Denisenko';
 
-const footerMenuLinkMainPageText = 'Главная';
+const footerMenuLinkMainPageText = 'Main page';
 
 const footerMenuLinkYP = 'https://praktikum.yandex.ru';
 const footerMenuLinkGH = 'https://github.com/Sergey-Denisenko';
 const footerMenuLinkFB = 'https://www.facebook.com/serugi.denisenko';
 
-const aboutTextHeader = 'Об авторе';
+const aboutTextHeader = 'About the author';
 const aboutTextParagraph = `Меня зовут Сергей Денисенко. Я Веб-разработчик. Прошел обучение в Яндекс Практикум, где овладел рядом технологий веб разработки:
 HTML, CSS, язык программирования JavaScript, React JS, адаптивная вёрстка (grid, flex), методология БЭМ, ООП (объекты, методы, классы). И это мой дипломный проект!`;
 
-const iconMenuImageAlt = 'Иконка меню';
-const mainPageImage = 'Картинка на главной';
+const iconMenuImageAlt = 'Menu icon';
+const mainPageImage = 'Main psge imageй';
 
 const stackSectionTitle = 'Stack & applications';
-const stackSectionSubtitle = 'Технологии и инструменты, которые использую в работе';
+const stackSectionSubtitle = 'Technologies and tools that I use in my work';
 // const stackListItems = ['HTML', 'CSS', 'JavaScript', 'React']
 const stackListItems = [
   {
@@ -86,7 +88,7 @@ const stackListItems = [
 ]
 
 const projectSectionTitle = 'Projects & Links';
-const projectSectionSubtitle = 'Реализованные проекты - учебные и Pet';
+const projectSectionSubtitle = 'Completed projects - Training and Pet';
 
 const projectListItems = [
   {
@@ -122,7 +124,7 @@ const projectListItems = [
 ]
 
 const myContactTitle = 'Contacts';
-const myContactSubtitle = 'Методы связи для сотрудничества';
+const myContactSubtitle = 'Сontacts for communication on cooperation issues';
 const myContact = [
   {
     type: 'E-mail',
@@ -138,7 +140,14 @@ const myContact = [
   },
 ]
 
+const linkToEmptySection = '#emptySection';
+const linkToProjectSection = '#project';
+const linkToStackSection = '#stack';
+const linkToContactSection = '#contact';
+
 module.exports = {
+  headerLogoText,
+
   aboutTitle,
   aboutSubtitle,
   footerCopyRightText,
@@ -166,6 +175,11 @@ module.exports = {
   myContactTitle,
   myContactSubtitle,
   myContact,
+
+  linkToEmptySection,
+  linkToProjectSection,
+  linkToStackSection,
+  linkToContactSection,
 
 }
 

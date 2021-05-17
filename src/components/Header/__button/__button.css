@@ -1,5 +1,5 @@
 .header__button {
-  width: 2em;
+  width: fit-content;
   /* height: 2em; */
   height: fit-content;
   margin: 0;

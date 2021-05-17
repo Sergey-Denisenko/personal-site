@@ -1,15 +1,16 @@
 import React from 'react';
+
 import iconGithubPath from '../images/icon-github.png';
 import iconFacebookPath from '../images/icon-facebook.png';
 import {
   footerCopyRightText,
-
   footerMenuLinkMainPageText,
   footerMenuLinkYPText,
   footerMenuLinkMainPage,
   footerMenuLinkYP,
   footerMenuLinkGH,
   footerMenuLinkFB,
+  linkToEmptySection,
 } from '../utils/constants';
 
 function Footer() {
@@ -22,7 +23,7 @@ function Footer() {
       <div className="footer__links">
         <ul className="footer__menu">
           <li className="footer__menu-item">
-            <a className="footer__menu-item_link" href={footerMenuLinkMainPage}>{footerMenuLinkMainPageText}</a>
+            <a className="footer__menu-item_link" href={linkToEmptySection}>{footerMenuLinkMainPageText}</a>
           </li>
           <li className="footer__menu-item">
             <a className="footer__menu-item_link" href={footerMenuLinkYP} target="_blank" rel="noreferrer">

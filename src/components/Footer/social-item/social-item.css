@@ -9,6 +9,14 @@
   border: 1px solid #fff;
 }
 
+.footer__social-item:hover {
+  background-color: #B6BCBF;
+  border: 1px solid #B6BCBF;
+  transform: scale(1);
+  transition: all 0.2s, transform 0.2s;
+}
+
+
 @media all and (min-width: 1024px) {
   .footer__social-item:nth-child(2) {
       margin-left: 28px;

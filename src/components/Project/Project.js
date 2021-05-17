@@ -1,6 +1,10 @@
 import React from'react'
 
-import { projectSectionTitle, projectSectionSubtitle, projectListItems } from '../utils/constants';
+import {
+  projectSectionTitle,
+  projectSectionSubtitle,
+  projectListItems
+} from '../utils/constants';
 
 function Project({ isProjectSectionOpen }) {
 
@@ -13,15 +17,7 @@ function Project({ isProjectSectionOpen }) {
           projectListItems.slice(0, projectListItems.length).map((item, index) => {
             return (
               <div key={index} className='project__list_item'>
-
-                {/* {item.name === 'Sergey Denisenko' && <img className='project__list_item_image' src='../images/mysite_image.png' />}
-                {item.name === '"News Explorer"' && <img className='project__list_item_image' src='../images/newsexplorer_image.png' />}
-                {item.name === '"MESTO"' && <img className='project__list_item_image' src='../images/mesto_image.png' />}
-                {item.name === '"Путешествие по России"' && <img className='project__list_item_image' src='../images/russiantravel_image.png' />}
-                {item.name === '"Mondrian composition"' && <img className='project__list_item_image' src='../images/mondrian_image.png' />} */}
-
                 <img className='project__list_item_image' src={item.imageSrc} />
-
                 <a className='project__list_item_link' href={item.link} target="_blank" rel="noreferrer">
                   <h2 className='project__list_item_title'>
                     {item.name}

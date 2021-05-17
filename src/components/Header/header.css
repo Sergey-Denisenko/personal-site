@@ -1,9 +1,3 @@
-/* @import url(./_color-background/_color-background.css);
-@import url(./_mobile-color-back-dark/_mobile-color-back-dark.css);
-@import url(./_mobile-color-back-light/_mobile-color-back-light.css);
-@import url(./__logo-text/__logo-text.css);
-@import url(./__logo-text/_dark-style/_dark-style.css); */
-
 @import url('./__section/__section.css');
 @import url('./__section/_center/_center.css');
 @import url('./__title/__title.css');
@@ -11,12 +5,18 @@
 @import url('./__button/__button.css');
 
 .header {
+  /* width: 952px;
+  padding: 0 36px;
+  left: calc(50% - 476px - 36px); */
+
   margin: 0 auto -50px;
-  padding: 0 104px;
+  /* padding: 0 104px; */
+  padding: 0 36px;
   display: flex;
   position: fixed;
   top: 0;
-  left: calc(50% - 384px - 104px);
+  /* left: calc(50% - 384px - 104px); */
+  left: calc(50% - 384px - 36px);
   justify-content: space-between;
   align-items: center;
   min-height: fit-content;
@@ -31,12 +31,14 @@
 
 }
 
-/* @media all and (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 768px) and (max-width: 1023px) {
   .header {
-    height: 66px;
-    padding: 0 40px;
+    height: 56px;
+    padding: 0px 24px;
+    width: calc(100% - 48px);
+    left: 0;
   }
-} */
+}
 
 @media all and (min-width: 320px) and (max-width: 767px) {
   .header {
