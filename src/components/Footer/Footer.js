@@ -1,7 +1,7 @@
 import React from 'react';
 
-import iconGithubPath from '../images/icon-github.png';
-import iconFacebookPath from '../images/icon-facebook.png';
+import iconGithubPath from '../../images/icon-github.png';
+import iconTelegramPath from '../../images/icon-telegram.png';
 import {
   footerCopyRightText,
   footerMenuLinkMainPageText,
@@ -10,8 +10,9 @@ import {
   footerMenuLinkYP,
   footerMenuLinkGH,
   footerMenuLinkFB,
+  footerMenuLinkTG,
   linkToEmptySection,
-} from '../utils/constants';
+} from '../../utils/constants';
 
 function Footer() {
   return (
@@ -38,8 +39,8 @@ function Footer() {
             </a>
           </li>
           <li className="footer__social-item">
-            <a className="footer__social-item_link" href={footerMenuLinkFB} target="_blank" rel="noreferrer">
-              <img className="footer__social-item-image" src={iconFacebookPath} alt="Иконка Facebook" />
+            <a className="footer__social-item_link" href={footerMenuLinkTG} target="_blank" rel="noreferrer">
+              <img className="footer__social-item-image" src={iconTelegramPath} alt="Иконка Telegram" />
             </a>
           </li>
         </ul>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { aboutTitle, aboutSubtitle, mainPageImage } from '../utils/constants';
+import { aboutTitle, aboutSubtitle, mainPageImage } from '../../utils/constants';
 
 function About({ isAboutSectionOpen }) {
 

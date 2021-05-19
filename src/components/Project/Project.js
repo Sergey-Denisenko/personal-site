@@ -4,7 +4,7 @@ import {
   projectSectionTitle,
   projectSectionSubtitle,
   projectListItems
-} from '../utils/constants';
+} from '../../utils/constants';
 
 function Project({ isProjectSectionOpen }) {
 

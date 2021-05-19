@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { myContactTitle, myContactSubtitle, myContact } from '../utils/constants';
+import { myContactTitle, myContactSubtitle, myContact } from '../../utils/constants';
 
 function Contact() {
 
@@ -18,10 +18,16 @@ function Contact() {
                 item.link.includes('https://' || 'http://')
                 ?
                 <a className='contact__list_item_link' href={item.link} target="_blank" rel="noreferrer">
-                  <p className='contact__list_item_subtitle'>{item.link}</p>
+                  <p className='contact__list_item_subtitle'>{item.name}</p>
                 </a>
                 :
-                <p className='contact__list_item_subtitle'>{item.link}</p>
+                item.name.includes('@' && '.')
+                ?
+                <a className='contact__list_item_link' href={item.link} target="_blank" rel="noreferrer">
+                  <p className='contact__list_item_subtitle'>{item.name}</p>
+                </a>
+                :
+                ''
               }
             </div>
           )

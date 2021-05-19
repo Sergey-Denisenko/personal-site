@@ -4,7 +4,7 @@ import {
   stackSectionTitle,
   stackSectionSubtitle,
   stackListItems
-} from '../utils/constants';
+} from '../../utils/constants';
 
 function Stack({ isStackSectionOpen }) {
 

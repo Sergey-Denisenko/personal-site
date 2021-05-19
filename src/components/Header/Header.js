@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { headerLogoText } from '../utils/constants';
+import { headerLogoText } from '../../utils/constants';
 // import iconMenuBlackPath from '../images/icon-menu-black.png';
-import iconMenuWhitePath from '../images/icon-menu-white.png';
-import { iconMenuImageAlt } from '../utils/constants';
+import iconMenuWhitePath from '../../images/icon-menu-white.png';
+import { iconMenuImageAlt } from '../../utils/constants';
 
 function Header({
   handleIsHeaderMenuOpen,

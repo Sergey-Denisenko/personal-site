@@ -9,13 +9,14 @@ const footerMenuLinkMainPageText = 'Main page';
 const footerMenuLinkYP = 'https://praktikum.yandex.ru';
 const footerMenuLinkGH = 'https://github.com/Sergey-Denisenko';
 const footerMenuLinkFB = 'https://www.facebook.com/serugi.denisenko';
+const footerMenuLinkTG = 'https://telegram.me/SergeyDNSNK';
 
 const aboutTextHeader = 'About the author';
 const aboutTextParagraph = `Меня зовут Сергей Денисенко. Я Веб-разработчик. Прошел обучение в Яндекс Практикум, где овладел рядом технологий веб разработки:
 HTML, CSS, язык программирования JavaScript, React JS, адаптивная вёрстка (grid, flex), методология БЭМ, ООП (объекты, методы, классы). И это мой дипломный проект!`;
 
 const iconMenuImageAlt = 'Menu icon';
-const mainPageImage = 'Main psge imageй';
+const mainPageImage = 'Main page image';
 
 const stackSectionTitle = 'Stack & applications';
 const stackSectionSubtitle = 'Technologies and tools that I use in my work';
@@ -128,14 +129,17 @@ const myContactSubtitle = 'Сontacts for communication on cooperation issues';
 const myContact = [
   {
     type: 'E-mail',
-    link: 'sd.a2@yandex.ru',
+    name: 'sd.a2@yandex.ru',
+    link: 'mailto:sd.a2@yandex.ru',
   },
   {
     type: 'Telegram',
-    link: '@SergeyDNSNK',
+    name: '@SergeyDNSNK',
+    link: 'https://telegram.me/SergeyDNSNK'
   },
   {
     type: 'GitHub',
+    name: 'https://github.com/Sergey-Denisenko',
     link: 'https://github.com/Sergey-Denisenko',
   },
 ]
@@ -157,6 +161,7 @@ module.exports = {
   footerMenuLinkYP,
   footerMenuLinkGH,
   footerMenuLinkFB,
+  footerMenuLinkTG,
 
   aboutTextHeader,
   aboutTextParagraph,
