@@ -27,11 +27,23 @@
   }
 }
 
-@media all and (min-width: 320px) and (max-width: 767px) {
+@media all and (min-width: 376px) and (max-width: 767px) {
   .about__subtitle {
-    letter-spacing: 15px;
+    letter-spacing: 11px;
+    /* letter-spacing: 2.4vw; */
     /* text-align: center; */
     font-size: 2em;
+    margin: 1.5em 0px 0px;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 375px) {
+  .about__subtitle {
+    letter-spacing: 11px;
+    /* letter-spacing: 2.4vw; */
+    /* text-align: center; */
+    /* font-size: 2em; */
+    font-size: 1.75em;
     margin: 1.5em 0px 0px;
   }
 }

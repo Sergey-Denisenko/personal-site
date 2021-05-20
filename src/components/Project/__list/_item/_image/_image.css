@@ -27,6 +27,7 @@
   .project__list_item_image {
     /* height: 260px; */
     width: inherit;
+    height: auto;
     /* border: 1px solid blue; */
   }
 }

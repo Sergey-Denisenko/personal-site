@@ -15,9 +15,16 @@
   /* border: 1px solid blue; */
 }
 
-@media all and (min-width: 320px) and (max-width: 767px) {
+@media all and (min-width: 376px) and (max-width: 767px) {
   .contact__list_item_subtitle {
     font-size: 0.95em;
+    padding-top: 0.25em;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 375px) {
+  .contact__list_item_subtitle {
+    font-size: 0.85em;
     padding-top: 0.25em;
   }
 }

@@ -1,3 +1,5 @@
+// import mysiteImage from '../images/mysite_image.png';
+
 const headerLogoText = 'Sergey Denisenko';
 
 const aboutTitle = 'Sergey Denisenko';
@@ -21,66 +23,67 @@ const mainPageImage = 'Main page image';
 const stackSectionTitle = 'Stack & applications';
 const stackSectionSubtitle = 'Technologies and tools that I use in my work';
 // const stackListItems = ['HTML', 'CSS', 'JavaScript', 'React']
+
 const stackListItems = [
   {
     name: 'HTML',
-    iconLink: '/images/stack-icons/HTML5_logo_and_wordmark.svg',
+    iconLink: './images/stack-icons/HTML5_logo_and_wordmark.svg',
   },
   {
     name: 'CSS',
-    iconLink: '/images/stack-icons/CSS3_logo_and_wordmark.svg',
+    iconLink: './images/stack-icons/CSS3_logo_and_wordmark.svg',
   },
   {
     name: 'JavaScript',
-    iconLink: '/images/stack-icons/Unofficial_JavaScript_logo_2.svg',
+    iconLink: './images/stack-icons/Unofficial_JavaScript_logo_2.svg',
   },
   {
     name: 'React',
-    iconLink: '/images/stack-icons/React-icon.svg',
+    iconLink: './images/stack-icons/React-icon.svg',
   },
   {
     name: 'node.js',
-    iconLink: '/images/stack-icons/Node.js_logo.svg',
+    iconLink: './images/stack-icons/Node.js_logo.svg',
   },
   {
     name: 'express.js',
-    iconLink: '/images/stack-icons/Expressjs.png',
+    iconLink: './images/stack-icons/Expressjs.png',
   },
   {
     name: 'git',
-    iconLink: '/images/stack-icons/Git-logo.svg',
+    iconLink: './images/stack-icons/Git-logo.svg',
   },
   {
     name: 'mongoDB',
-    iconLink: '/images/stack-icons/MongoDB_Logo.svg',
+    iconLink: './images/stack-icons/MongoDB_Logo.svg',
   },
   {
     name: 'bash',
-    iconLink: '/images/stack-icons/GNU-bash-logo.svg',
+    iconLink: './images/stack-icons/Gnu-bash-logo.svg',
   },
   {
     name: 'GitHub',
-    iconLink: '/images/stack-icons/GitHub-Mark-120px-plus.png',
+    iconLink: './images/stack-icons/GitHub-Mark-120px-plus.png',
   },
   {
     name: 'VSC',
-    iconLink: '/images/stack-icons/Visual_Studio_Code_1.35_icon.svg',
+    iconLink: './images/stack-icons/Visual_Studio_Code_1.35_icon.svg',
   },
   {
     name: 'ESLint',
-    iconLink: '/images/stack-icons/ESLint_logo.svg',
+    iconLink: './images/stack-icons/ESLint_logo.svg',
   },
   {
     name: 'BEM',
-    iconLink: '/images/stack-icons/Logo_BEM.png',
+    iconLink: './images/stack-icons/Logo_BEM.png',
   },
   {
     name: 'Postman',
-    iconLink: '/images/stack-icons/Postman_logo.png',
+    iconLink: './images/stack-icons/Postman_logo.png',
   },
   {
     name: 'Figma',
-    iconLink: '/images/stack-icons/Figma-1-logo.png',
+    iconLink: './images/stack-icons/Figma-1-logo.png',
   },
   {
     name: 'place for future skills...',
@@ -95,31 +98,32 @@ const projectListItems = [
   {
     type: 'Личный сайт',
     name: 'Sergey Denisenko',
-    imageSrc: '../images/mysite_image.png',
+    // imageSrc: './images/mysite_image.png',
+    imageSrc: './' + 'images/mysite_image.png',
     link: '...',
   },
   {
     type: 'Учебный проект',
     name: '"News Explorer"',
-    imageSrc: '../images/newsexplorer_image.png',
+    imageSrc: './images/newsexplorer_image.png',
     link: 'https://allnews.students.nomoreparties.site',
   },
   {
     type: 'Учебный проект',
     name: '"MESTO"',
-    imageSrc: '../images/mesto_image.png',
+    imageSrc: './images/mesto_image.png',
     link: 'https://world.students.nomoreparties.xyz',
   },
   {
     type: 'Учебный проект',
     name: '"Путешествие по России"',
-    imageSrc: '../images/russiantravel_image.png',
+    imageSrc: './images/russiantravel_image.png',
     link: 'https://sergey-denisenko.github.io/russian-travel/',
   },
   {
     type: 'Проект',
     name: '"Mondrian composition"',
-    imageSrc: '../images/mondrian_image.png',
+    imageSrc: './images/mondrian_image.png',
     link: 'https://sergey-denisenko.github.io/mondrian-composition/',
   },
 ]

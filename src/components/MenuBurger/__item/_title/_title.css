@@ -1,7 +1,9 @@
 .menu-burger__item_title {
   color: inherit;
   /* margin: 0.5em 0 0; */
-  margin: 0 0;
+  margin: 0;
+
+  /* border: 1px solid yellow; */
 }
 
 @media all and (min-width: 320px) and (max-width: 767px) {

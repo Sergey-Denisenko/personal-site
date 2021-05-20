@@ -81,9 +81,7 @@ function App() {
 
       <div className="app">
         <div className="page">
-            <Header
-              handleIsHeaderMenuOpen={handleIsHeaderMenuOpen}
-            />
+            <Header handleIsHeaderMenuOpen={handleIsHeaderMenuOpen} />
             <About isAboutSectionOpen={isAboutSectionOpen} />
             <EmptySection />
             <Project isProjectSectionOpen={isProjectSectionOpen} />
