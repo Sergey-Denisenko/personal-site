@@ -42,6 +42,10 @@ const stackListItems = [
     iconLink: './images/stack-icons/React-icon.svg',
   },
   {
+    name: 'Redux',
+    iconLink: './images/stack-icons/Redux.png',
+  },
+  {
     name: 'node.js',
     iconLink: './images/stack-icons/Node.js_logo.svg',
   },
